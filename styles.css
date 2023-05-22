@@ -4,6 +4,7 @@ body {
     font-size: 1.125rem;
 }
 
+
 /* typography */
 h1 {
     text-align: center;
@@ -16,6 +17,7 @@ span {
 h2 {
     margin: 0;
 }
+
 
 /* links */
 a {
@@ -30,6 +32,7 @@ a:hover {
 .proprietor {
     padding: 10px;
 }
+
 
 /* buttons */
 .button1, .button2 {
@@ -49,6 +52,35 @@ a:hover {
 
 
 /* layout */
+nav {
+    display: flex;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+}
+
+li {
+    padding: 20px;
+}
+
+/* figure and image styles */
+figure {
+    margin: 50px 0;
+    max-width: 80%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* other layout styles */
 .container {
     display: flex;
     flex-direction: column;
@@ -91,31 +123,4 @@ footer {
     border-top-right-radius: 20px;
     margin-top: 30px;
     color: white;
-}
-
-nav {
-    display: flex;
-}
-
-ul {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    align-items: flex-end;
-    list-style-type: none;
-}
-
-li {
-    padding: 20px;
-}
-
-figure {
-    margin: 50px 0;
-    max-width: 80%;
-    height: auto;
-}
-
-img {
-    width: 100%;
-    height: auto;
 }
