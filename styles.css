@@ -17,7 +17,7 @@ h2 {
     margin: 0;
 }
 
-/* links and buttons */
+/* links */
 a {
     color: white;
     text-decoration: none;
@@ -32,17 +32,17 @@ a:hover {
 }
 
 /* buttons */
-.button1 {
+.button1, .button2 {
     display: inline-block;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.button1 {
     background-color: rgba(62, 91, 121, 0.898);
 }
 
 .button2 {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 20px;
     border: 1px solid rgba(62, 91, 121, 0.898);
     color: rgba(62, 91, 121, 0.898);
 }
@@ -63,20 +63,22 @@ header {
     height: 100px;
     background-color: rgba(62, 91, 121, 0.898);
     border-bottom-left-radius: 20px;
-
 }
 
-section {
+section, footer {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
+    text-align: center;
+}
+
+section {
     height: 200px;
     background-color: rgba(101, 107, 107, 0.174);
-    border-bottom-left-radius: 20px;
-    text-align: center;
+    border-bottom-left-radius: 20px;  
 }
 
 .projects {
@@ -84,18 +86,11 @@ section {
 }
 
 footer {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
     height: 150px;
     background-color: rgba(62, 91, 121, 0.898);
     border-top-right-radius: 20px;
     margin-top: 30px;
     color: white;
-    text-align: center;
 }
 
 nav {
